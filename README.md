@@ -9,3 +9,7 @@ An abstract class Converter delegates these "behaviors" to objects that implemen
 ConverterDemo is the concrete realization of this abstraction.
 
 Finally, a client would use this as demonstrated via the example shown in Client.java
+
+By no means is this a production ready - I can think of many ways to enhance it and make it more robust.  
+
+- This parser does not handle tabs or other escape characters if found in the first row of the CSV file.
