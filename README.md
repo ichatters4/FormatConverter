@@ -13,3 +13,5 @@ Finally, a client would use this as demonstrated via the example shown in Client
 By no means is this a production ready - I can think of many ways to enhance it and make it more robust.  
 
 - This parser does not handle tabs or other escape characters if found in the first row of the CSV file.
+- Another improvement would be the ability for this converter to be able to read from any data source (DB etc) and write to any data source and not just flat files..
+
